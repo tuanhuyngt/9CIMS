@@ -108,11 +108,11 @@ export class ChartjsComponent implements OnInit {
 
   doughnutPieChartData = [
     {
-      data: [30, 40, 30],
+      data: [220, 30, 240],
     }
   ];
 
-  doughnutPieChartLabels = ["Pink", "Blue", "Yellow"];
+  doughnutPieChartLabels = ["Male", "Other", "Female"];
 
   doughnutPieChartOptions = {
     responsive: true,
