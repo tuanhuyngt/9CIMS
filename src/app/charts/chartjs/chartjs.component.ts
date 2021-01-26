@@ -6,113 +6,113 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./chartjs.component.scss']
 })
 export class ChartjsComponent implements OnInit {
-  lineChartData = [{
-    label: '# of Votes',
-    data: [10, 19, 3, 5, 2, 3],
-    borderWidth: 1,
-    fill: false
-  }];
+  // lineChartData = [{
+  //   label: '# of Votes',
+  //   data: [10, 19, 3, 5, 2, 3],
+  //   borderWidth: 1,
+  //   fill: false
+  // }];
 
-  lineChartLabels = ["2013", "2014", "2014", "2015", "2016", "2017"];
+  // lineChartLabels = ["2013", "2014", "2014", "2015", "2016", "2017"];
 
-  lineChartOptions = {
-    scales: {
-      yAxes: [{
-        ticks: {
-          beginAtZero: true
-        }
-      }]
-    },
-    legend: {
-      display: false
-    },
-    elements: {
-      point: {
-        radius: 0
-      }
-    }
-  };
+  // lineChartOptions = {
+  //   scales: {
+  //     yAxes: [{
+  //       ticks: {
+  //         beginAtZero: true
+  //       }
+  //     }]
+  //   },
+  //   legend: {
+  //     display: false
+  //   },
+  //   elements: {
+  //     point: {
+  //       radius: 0
+  //     }
+  //   }
+  // };
 
-  lineChartColors = [
-    {
-      borderColor: 'rgba(255,99,132,1)'
-    }
-  ];
+  // lineChartColors = [
+  //   {
+  //     borderColor: 'rgba(255,99,132,1)'
+  //   }
+  // ];
 
-  barChartData = [{
-    label: '# of Votes',
-    data: [10, 19, 3, 5, 2, 3],
-    borderWidth: 1,
-    fill: false
-  }];
+  // barChartData = [{
+  //   label: '# of Votes',
+  //   data: [10, 19, 3, 5, 2, 3],
+  //   borderWidth: 1,
+  //   fill: false
+  // }];
 
-  barChartLabels = ["2013", "2014", "2014", "2015", "2016", "2017"];
+  // barChartLabels = ["2013", "2014", "2014", "2015", "2016", "2017"];
 
-  barChartOptions = {
-    scales: {
-      yAxes: [{
-        ticks: {
-          beginAtZero: true
-        }
-      }]
-    },
-    legend: {
-      display: false
-    },
-    elements: {
-      point: {
-        radius: 0
-      }
-    }
-  };
+  // barChartOptions = {
+  //   scales: {
+  //     yAxes: [{
+  //       ticks: {
+  //         beginAtZero: true
+  //       }
+  //     }]
+  //   },
+  //   legend: {
+  //     display: false
+  //   },
+  //   elements: {
+  //     point: {
+  //       radius: 0
+  //     }
+  //   }
+  // };
 
-  barChartColors = [
-    {
-      backgroundColor: [
-        'rgba(255, 99, 132, 0.2)',
-        'rgba(54, 162, 235, 0.2)',
-        'rgba(255, 206, 86, 0.2)',
-        'rgba(75, 192, 192, 0.2)',
-        'rgba(153, 102, 255, 0.2)',
-        'rgba(255, 159, 64, 0.2)'
-      ],
-      borderColor: [
-        'rgba(255,99,132,1)',
-        'rgba(54, 162, 235, 1)',
-        'rgba(255, 206, 86, 1)',
-        'rgba(75, 192, 192, 1)',
-        'rgba(153, 102, 255, 1)',
-        'rgba(255, 159, 64, 1)'
-      ]
-    }
-  ];
+  // barChartColors = [
+  //   {
+  //     backgroundColor: [
+  //       'rgba(255, 99, 132, 0.2)',
+  //       'rgba(54, 162, 235, 0.2)',
+  //       'rgba(255, 206, 86, 0.2)',
+  //       'rgba(75, 192, 192, 0.2)',
+  //       'rgba(153, 102, 255, 0.2)',
+  //       'rgba(255, 159, 64, 0.2)'
+  //     ],
+  //     borderColor: [
+  //       'rgba(255,99,132,1)',
+  //       'rgba(54, 162, 235, 1)',
+  //       'rgba(255, 206, 86, 1)',
+  //       'rgba(75, 192, 192, 1)',
+  //       'rgba(153, 102, 255, 1)',
+  //       'rgba(255, 159, 64, 1)'
+  //     ]
+  //   }
+  // ];
 
-  areaChartData = [{
-    label: '# of Votes',
-    data: [10, 19, 3, 5, 2, 3],
-    borderWidth: 1,
-    fill: true
-  }];
+  // areaChartData = [{
+  //   label: '# of Votes',
+  //   data: [10, 19, 3, 5, 2, 3],
+  //   borderWidth: 1,
+  //   fill: true
+  // }];
 
-  areaChartLabels = ["2013", "2014", "2014", "2015", "2016", "2017"];
+  // areaChartLabels = ["2013", "2014", "2014", "2015", "2016", "2017"];
 
-  areaChartOptions = {};
+  // areaChartOptions = {};
 
-  areaChartColors = [
-    {
-      borderColor: 'rgba(255,99,132,1)',
-      backgroundColor: 'rgba(255,99,132,.2)'
-    }
-  ];
+  // areaChartColors = [
+  //   {
+  //     borderColor: 'rgba(255,99,132,1)',
+  //     backgroundColor: 'rgba(255,99,132,.2)'
+  //   }
+  // ];
 
 
   doughnutPieChartData = [
     {
-      data: [220, 30, 240],
+      data: [15, 60, 25],
     }
   ];
 
-  doughnutPieChartLabels = ["Male", "Other", "Female"];
+  doughnutPieChartLabels = ["Giới tính thứ 3", "Nam", "Nữ"];
 
   doughnutPieChartOptions = {
     responsive: true,
@@ -125,14 +125,15 @@ export class ChartjsComponent implements OnInit {
   doughnutPieChartColors = [
     {
       backgroundColor: [
+        '#CB90D5',
+        '#F09494',
+        '#94CAB6',
+
+      ],
+      borderColor: [
         'rgba(255, 99, 132, 0.2)',
         'rgba(54, 162, 235, 0.2)',
         'rgba(255, 206, 86, 0.2)'
-      ],
-      borderColor: [
-        'rgba(255,99,132,1)',
-        'rgba(54, 162, 235, 1)',
-        'rgba(255, 206, 86, 1)'
       ]
     }
   ];
@@ -209,7 +210,7 @@ export class ChartjsComponent implements OnInit {
       ]
     }
   ];
-
+  
   constructor() { }
 
   ngOnInit() {

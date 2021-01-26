@@ -1,16 +1,121 @@
-<div class="page-header">
-  <h3 class="page-title">Customer</h3>
-  <nav aria-label="breadcrumb">
-    <button
-      routerLink="../../forms/basic-elements"
-      routerLinkActive="active"
-      type="button"
-      class="btn btn-gradient-primary btn-rounded btn-fw"
-    >
-      New Customer Info
-    </button>
-  </nav>
+<div class="row">
+  <div class="col-lg-12 grid-margin stretch-card">
+    <div class="d-flex align-items-center w-100">
+      <div ngbDropdown>
+        <button
+          class="btn btn-gradient-primary"
+          type="button"
+          id="dropdownMenuOutlineButton1"
+          ngbDropdownToggle
+        >
+          Filter
+        </button>
+        <div ngbDropdownMenu aria-labelledby="dropdownMenuOutlineButton1">
+          <h6 class="dropdown-header">Settings</h6>
+          <a class="dropdown-item">Action</a>
+          <a class="dropdown-item">Another action</a>
+          <a class="dropdown-item">Something else here</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item">Separated link</a>
+        </div>
+      </div>
+      <div class="search-field w-100">
+        <form class="d-flex align-items-center" action="#">
+          <div class="input-group">
+            <div class="input-group-prepend border border-warning">
+              <i class="input-group-text mdi mdi-magnify"></i>
+            </div>
+            <input
+              type="text"
+              style="padding: 20px"
+              class="form-control border border-warning"
+              placeholder="Search projects"
+            />
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
 </div>
+
+<div class="row mb-5">
+  <div class="col-lg-6">
+    <div class="card">
+      <div class="card-body">
+        <h4 class="card-title">Hiện thị tất cả khách hàng theo</h4>
+        <div class="col-md-12">
+          <div class="form-group row">
+            <div class="col-sm-4">
+              <select class="form-control">
+                <option>Category1</option>
+                <option>Category2</option>
+                <option>Category3</option>
+                <option>Category4</option>
+              </select>
+            </div>
+            <div class="col-sm-4">
+              <select class="form-control">
+                <option>Category1</option>
+                <option>Category2</option>
+                <option>Category3</option>
+                <option>Category4</option>
+              </select>
+            </div>
+            <div class="col-sm-4">
+              <select class="form-control">
+                <option>Category1</option>
+                <option>Category2</option>
+                <option>Category3</option>
+                <option>Category4</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-6">
+    <div class="d-flex flex-wrap">
+      <div class="m-1" style="display: flex">
+        <span class="alert alert-warning">cong nghe thong tin</span>
+        <span
+          class="alert alert-warning"
+          style="border-left: none; cursor: pointer"
+        >
+          <i class="mdi mdi-close mr-0"></i>
+        </span>
+      </div>
+      <div class="m-1" style="display: flex">
+        <span class="alert alert-warning">cong nghe </span>
+        <span
+          class="alert alert-warning"
+          style="border-left: none; cursor: pointer"
+        >
+          <i class="mdi mdi-close mr-0"></i>
+        </span>
+      </div>
+      <div class="m-1" style="display: flex">
+        <span class="alert alert-warning">cong tin</span>
+        <span
+          class="alert alert-warning"
+          style="border-left: none; cursor: pointer"
+        >
+          <i class="mdi mdi-close mr-0"></i>
+        </span>
+      </div>
+      <div class="m-1" style="display: flex">
+        <span class="alert alert-warning"> tin</span>
+        <span
+          class="alert alert-warning"
+          style="border-left: none; cursor: pointer"
+        >
+          <i class="mdi mdi-close mr-0"></i>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+
 <div class="row">
   <div class="col-lg-12 grid-margin stretch-card">
     <div class="card">
@@ -49,7 +154,9 @@
                 </td>
                 <td>$ 77.99</td>
                 <td>May 15, 2015</td>
-                <td><label class="badge badge-warning">In progress</label></td>
+                <td>
+                  <label class="badge badge-warning">In progress</label>
+                </td>
               </tr>
               <tr>
                 <td class="py-1">
@@ -112,7 +219,9 @@
                 </td>
                 <td>$ 77.99</td>
                 <td>May 15, 2015</td>
-                <td><label class="badge badge-warning">In progress</label></td>
+                <td>
+                  <label class="badge badge-warning">In progress</label>
+                </td>
               </tr>
               <tr>
                 <td class="py-1">
@@ -154,7 +263,9 @@
                 </td>
                 <td>$ 123.21</td>
                 <td>April 05, 2015</td>
-                <td><label class="badge badge-warning">In progress</label></td>
+                <td>
+                  <label class="badge badge-warning">In progress</label>
+                </td>
               </tr>
               <tr>
                 <td class="py-1">
